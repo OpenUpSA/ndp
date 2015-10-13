@@ -2,9 +2,9 @@
 .health .sector-page .goals ul li,
 .health .contributor-page .goals ul li { background: url('../img/sectors/bullet-health.png') no-repeat left top; }
 
-.international h1 { color: #781d66; }
-.international .sector-page .goals ul li,
-.international .contributor-page .goals ul li { background: url('../img/sectors/bullet-international.png') no-repeat left top; }
+.international-development h1 { color: #781d66; }
+.international-development .sector-page .goals ul li,
+.international-development .contributor-page .goals ul li { background: url('../img/sectors/bullet-international-development.png') no-repeat left top; }
 
 .government h1 { color: #d0851d; }
 .government .sector-page .goals ul li,
