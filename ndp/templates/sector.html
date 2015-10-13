@@ -1,0 +1,76 @@
+{% extends "base.html" %}
+
+{% load static sectors %}
+
+{% block title %}{{ sector.name }} - South African National Development Plan{% endblock %}
+{% block body-class %}sector-page {{ sector.slug }} {% endblock %}
+
+{% block page-header %}
+    <img class="sector-bubble" src="{% static sector.image_filename %}">
+    <h1>{{ sector.name }}</h1>
+{% endblock %}
+
+{% block page-content %}
+
+<div class="row sector-page">
+    <div class="col-md-8">
+        <div class="row">
+            <div class="col-md-6">
+                <hr class="sep hidden-sm hidden-xs"/>
+                <div class="vision">
+                    <h2>VISION</h2>
+                    {{ sector.vision|linebreaks }}
+                </div>
+            </div>
+            <div class="col-md-6">
+                <hr class="sep hidden-sm hidden-xs"/>
+                <hr class="hidden-md hidden-lg" />
+                <div class="goals">
+                    <h2>GOALS</h2>
+                    <ul>
+                    {{ sector.goals|goallist }}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="contributors">
+                    <hr class="sep hidden-sm hidden-xs"/>
+                    <hr class="hidden-md hidden-lg" />
+                    <h2>CONTRIBUTORS</h2>
+                    <div class="info">Click on a link to find out more</div>
+                    <ul>
+                        <?php include 'content/sector-contributors.php'; ?>
+                        <li><a href="#">Another Organisation</a></li>
+                        <li><a href="#">Another Organisation</a></li>
+                        <li><a href="#">Another Organisation</a></li>
+                        <li><a href="#">Another Organisation</a></li>
+                        <li><a href="#">Another Organisation</a></li>
+                        <li><a href="#">Another Organisation</a></li>
+                        <li><a href="#">Another Organisation</a></li>
+                        <li><a href="#">Another Organisation</a></li>
+                        <li><a href="#">Another Organisation</a></li>
+                        <li><a href="#">Another Organisation</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 get-involved">
+                <hr/>
+                {% include '_get_involved.html' %}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <hr/>
+                {% include '_sector_links.html' %}
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
