@@ -7,7 +7,7 @@ from django.template.defaultfilters import slugify
 
 sectors = [
     (
-        'Economy and Employment',
+        'Economy & Employment',
         """To eliminate poverty and reduce inequality, South Africa has to raise levels of employment and, through productivity growth, the earnings of working people.
 South Africa needs faster growth and more inclusive growth. Key elements of this strategy include raising exports, improving skills development, lowering the costs of living for the poor, investing in a competitive infrastructure, reducing the regulatory burden on small businesses, facilitating private investment and improving the performance of the labour market to reduce tension and ease access to young, unskilled work seekers.
 Only through effective partnerships across society can a virtuous cycle of rising confidence, rising investment, higher employment, rising productivity and incomes be generated.
