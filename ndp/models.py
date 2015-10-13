@@ -12,3 +12,7 @@ class Sector(models.Model):
 
     def __str__(self):
         return self.name
+
+    @property
+    def image_filename(self):
+        return 'img/sectors/%s.png' % self.slug

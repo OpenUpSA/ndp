@@ -1,11 +1,17 @@
+from random import shuffle
+
 from django.shortcuts import render, get_object_or_404
 
 from ndp.models import Sector
 
 
 def home(request):
+    sectors = list(Sector.objects.all())
+    shuffle(sectors)
+
     return render(request, 'index.html', {
         'pagename': 'home',
+        'sectors': sectors,
     })
 
 

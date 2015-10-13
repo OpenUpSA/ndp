@@ -6,9 +6,7 @@
 {% block body-class %}sector-page {{ sector.slug }} {% endblock %}
 
 {% block page-header %}
-    {% with 'img/sectors/'|add:sector.slug|add:'.png' as sector_image %}
-    <img class="sector-bubble" src="{% static sector_image %}">
-    {% endwith %}
+    <img class="sector-bubble" src="{% static sector.image_filename %}">
     <h1>{{ sector.name }}</h1>
 {% endblock %}
 
