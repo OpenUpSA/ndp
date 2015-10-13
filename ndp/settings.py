@@ -66,7 +66,7 @@ SESSION_ENGINE = 'django.contrib.sessions.backends.signed_cookies'
 # Database
 # https://docs.djangoproject.com/en/1.7/ref/settings/#databases
 import dj_database_url
-db_config = dj_database_url.config(default='sqlite:///db.sqlite3')
+db_config = dj_database_url.config(default='postgres://ndp:@localhost/ndp')
 db_config['ATOMIC_REQUESTS'] = True
 DATABASES = {
     'default': db_config,
