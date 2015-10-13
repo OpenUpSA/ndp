@@ -1,0 +1,53 @@
+.health h1 { color: #8dba9e; }
+.health .sector-page .goals ul li,
+.health .contributor-page .goals ul li { background: url('img/sectors/bullet-health.png') no-repeat left top; }
+
+.international h1 { color: #781d66; }
+.international .sector-page .goals ul li,
+.international .contributor-page .goals ul li { background: url('img/sectors/bullet-international.png') no-repeat left top; }
+
+.government h1 { color: #d0851d; }
+.government .sector-page .goals ul li,
+.government .contributor-page .goals ul li { background: url('img/sectors/bullet-government.png') no-repeat left top; }
+
+.ruralEconomy h1 { color: #006931; }
+.ruralEconomy .sector-page .goals ul li,
+.ruralEconomy .contributor-page .goals ul li { background: url('img/sectors/bullet-rural-economy.png') no-repeat left top; }
+
+.education h1 { color: #0473ae; }
+.education .sector-page .goals ul li,
+.education .contributor-page .goals ul li { background: url('img/sectors/bullet-education.png') no-repeat left top; }
+
+.communities h1 { color: #ffcc42; }
+.communities .sector-page .goals ul li,
+.communities .contributor-page .goals ul li { background: url('img/sectors/bullet-communities.png') no-repeat left top; }
+
+.social-protection h1 { color: #df006f; }
+.social-protection .sector-page .goals ul li,
+.social-protection .contributor-page .goals ul li { background: url('img/sectors/bullet-social-protection.png') no-repeat left top; }
+
+.social-cohesion h1 { color: #fd711d; }
+.social-cohesion .sector-page .goals ul li,
+.social-cohesion .contributor-page .goals ul li { background: url('img/sectors/bullet-social-cohesion.png') no-repeat left top; }
+
+.environment h1 { color:  #24a336; }
+.environment .sector-page .goals ul li,
+.environment .contributor-page .goals ul li { background: url('img/sectors/bullet-environment.png') no-repeat left top; }
+
+.economy-employment h1 { color: #7e141b; }
+.economy-employment .sector-page .goals ul li,
+.economy-employment .contributor-page .goals ul li { background: url('img/sectors/bullet-economy-employment.png') no-repeat left top; }
+
+.infrastructure h1 { color: #928488; }
+.infrastructure .sector-page .goals ul li,
+.infrastructure .contributor-page .goals ul li { background: url('img/sectors/bullet-infrastructure.png') no-repeat left top; }
+
+.corruption h1 { color: #e0031c; }
+.corruption .sector-page .goals ul li,
+.corruption .contributor-page .goals ul li { background: url('img/sectors/bullet-corruption.png') no-repeat left top; }
+
+.human-settlements h1 { color: #b5c923; }
+.human-settlements .sector-page .goals ul li,
+.human-settlements .contributor-page .goals ul li { background: url('img/sectors/bullet-human-settlements.png') no-repeat left top; }
+
+

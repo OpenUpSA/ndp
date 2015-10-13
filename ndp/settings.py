@@ -126,8 +126,11 @@ PYSCSS_LOAD_PATHS = [
 PIPELINE_CSS = {
     'css': {
         'source_filenames': (
-            'bower_components/fontawesome/css/font-awesome.css',
-            'stylesheets/app.scss',
+            'bootstrap/css/bootstrap.min.css',
+            'stylesheets/animate.css',
+            'tipso/tipso.css',
+            'stylesheets/ndp.css',
+            'stylesheets/sectors.css',
         ),
         'output_filename': 'app.css',
     },
@@ -136,7 +139,10 @@ PIPELINE_JS = {
     'js': {
         'source_filenames': (
             'bower_components/jquery/dist/jquery.min.js',
-            'javascript/app.js',
+            'bootstrap/js/bootstrap.min.js',
+            'javascript/readmore.min.js',
+            'tipso/tipso.min.js',
+            'javascript/ndp.js',
         ),
         'output_filename': 'app.js',
     },
