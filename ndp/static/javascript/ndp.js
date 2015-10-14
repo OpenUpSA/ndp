@@ -112,7 +112,7 @@ $(function() {
 
     window.open("https://twitter.com/intent/tweet?" +
                 "text=" + encodeURIComponent(tweet) +
-                "&url=" + encodeURIComponent(url) +
+                "&url=" + encodeURIComponent(url),
                 "share", "width=364, height=250, scrollbars=no");
     ga('send', 'social', 'twitter', 'share', url);
   });
