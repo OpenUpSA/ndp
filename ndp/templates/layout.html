@@ -1,4 +1,4 @@
-{% load pipeline %}
+{% load pipeline static %}
 
 <!DOCTYPE html>
 <html>
@@ -7,6 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Showcasing the South African National Development Plan">
     <meta name="csrf-token" content="{{ csrf_token }}">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://ndp.code4sa.org/">
+    <meta property="og:title" content="Showcasing the South African National Development Plan">
+    <meta property="og:description" content="Demystifying the National Development Plan for South Africa 2030 and tracking its progress.">
+    <meta property="og:image" content="{% static 'img/NDP.png' %}">
+    <meta property="og:site_name" content="National Development Plan 2030">
 
     {% block head-css %}
     {% stylesheet "css" %}
