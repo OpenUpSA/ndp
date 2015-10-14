@@ -1,12 +1,13 @@
 import os
 
 from django.db import models
+from django.utils.text import slugify
 
 
 def image_filename(instance, filename):
     """ Make S3 image filenames
     """
-    return 'images/%s/%s' % (instance.id, os.path.basename(filename))
+    return 'logos/%s-%s/%s' % (instance.__class__.__name__, slugify(instance.name), os.path.basename(filename))
 
 
 class Sector(models.Model):
