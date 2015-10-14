@@ -10,9 +10,9 @@
 .government .sector-page .goals ul li,
 .government .contributor-page .goals ul li { background: url('../img/sectors/bullet-government.png') no-repeat left top; }
 
-.ruralEconomy h1 { color: #006931; }
-.ruralEconomy .sector-page .goals ul li,
-.ruralEconomy .contributor-page .goals ul li { background: url('../img/sectors/bullet-rural-economy.png') no-repeat left top; }
+.rural-economy h1 { color: #006931; }
+.rural-economy .sector-page .goals ul li,
+.rural-economy .contributor-page .goals ul li { background: url('../img/sectors/bullet-rural-economy.png') no-repeat left top; }
 
 .education h1 { color: #0473ae; }
 .education .sector-page .goals ul li,
