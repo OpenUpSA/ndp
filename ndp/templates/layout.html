@@ -9,10 +9,10 @@
     <meta name="csrf-token" content="{{ csrf_token }}">
 
     <meta property="og:type" content="website">
-    <meta property="og:url" content="http://ndp.code4sa.org/">
+    <meta property="og:url" content="http://{{ request.META.HTTP_HOST }}">
     <meta property="og:title" content="Showcasing the South African National Development Plan">
     <meta property="og:description" content="Demystifying the National Development Plan for South Africa 2030 and tracking its progress.">
-    <meta property="og:image" content="{% static 'img/NDP.png' %}">
+    <meta property="og:image" content="http://{{ request.META.HTTP_HOST}}{% static 'img/NDP.png' %}">
     <meta property="og:site_name" content="National Development Plan 2030">
 
     {% block head-css %}
