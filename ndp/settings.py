@@ -139,6 +139,7 @@ PYSCSS_LOAD_PATHS = [
 PIPELINE_CSS = {
     'css': {
         'source_filenames': (
+            'stylesheets/fonts.css',
             'bootstrap/css/bootstrap.min.css',
             'stylesheets/animate.css',
             'tipso/tipso.css',
