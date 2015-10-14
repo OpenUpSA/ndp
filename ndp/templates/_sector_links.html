@@ -4,7 +4,7 @@
 <div class="sector-links">
     <ul>
         {% for sector in sectors %}
-        <li><a href="{% url 'sector' sector.slug %}"><div class="blurb" style="display: none">{{ sector.name }}</div><img src="{% static sector.image_filename %}"/></a></li>
+        <li><a href="{% url 'sector' sector.slug %}"><div class="blurb" style="display: none">{{ sector.name }}</div><img src="{% static sector.image_filename %}" alt="{{ sector.name }}" title="{{ sector.name }}"/></a></li>
         {% endfor %}
     </ul>
 </div>
