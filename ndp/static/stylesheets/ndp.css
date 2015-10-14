@@ -227,22 +227,21 @@ header {
     float: left; 
     margin: 0 5px 5px 0;
     border-radius: 50%;
-
 }
 
-.sector-page h2, .contributor-page h2, .about-page h2 {
+.project-sector-links ul li img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.sector-page h2, .contributor-page h2, .about-page h2, .contributor-page h3 {
     font-size: 1.2em;
     font-weight: 700;
     font-family: "Cantarell", sans-serif;
     color: #000;
     margin: 0 0 20px 0;
-}
-
-.contributor-page h3 {
-    font-size: 1em;
-    font-weight: 700;
-    font-family: "Times New Roman", sans-serif;
-    color: #000;
 }
 
 .contributor-page .goals {

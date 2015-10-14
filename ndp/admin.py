@@ -1,5 +1,5 @@
 from django.contrib import admin
-from ndp.models import Sector
+from ndp.models import Sector, Project, Organisation
 
 
 class SectorAdmin(admin.ModelAdmin):
@@ -7,3 +7,5 @@ class SectorAdmin(admin.ModelAdmin):
 
 
 admin.site.register(Sector, SectorAdmin)
+admin.site.register(Organisation, admin.ModelAdmin)
+admin.site.register(Project, admin.ModelAdmin)

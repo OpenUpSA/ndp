@@ -43,17 +43,9 @@
                     <h2>CONTRIBUTORS</h2>
                     <div class="info">Click on a link to find out more</div>
                     <ul>
-                        <?php include 'content/sector-contributors.php'; ?>
-                        <li><a href="#">Another Organisation</a></li>
-                        <li><a href="#">Another Organisation</a></li>
-                        <li><a href="#">Another Organisation</a></li>
-                        <li><a href="#">Another Organisation</a></li>
-                        <li><a href="#">Another Organisation</a></li>
-                        <li><a href="#">Another Organisation</a></li>
-                        <li><a href="#">Another Organisation</a></li>
-                        <li><a href="#">Another Organisation</a></li>
-                        <li><a href="#">Another Organisation</a></li>
-                        <li><a href="#">Another Organisation</a></li>
+                        {% for organisation in sector.organisations %}
+                        <li><a href="{% url 'organisation' organisation.id %}">{{ organisation.name }}</a></li>
+                        {% endfor %}
                     </ul>
                 </div>
             </div>
