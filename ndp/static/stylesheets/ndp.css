@@ -275,16 +275,6 @@ header {
     margin: 0px;
 }
 
-.sector-page .contributors ul li a {
-    color: #000;
-    font-weight: 700;
-    font-size: 0.9em
-}
-
-.sector-page .contributors ul li a:hover {
-    text-decoration: underline;
-}
-
 .get-involved a {
     color: #4498C4;
 }

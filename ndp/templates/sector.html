@@ -41,7 +41,6 @@
                     <hr class="sep hidden-sm hidden-xs"/>
                     <hr class="hidden-md hidden-lg" />
                     <h2>CONTRIBUTORS</h2>
-                    <div class="info">Click on a link to find out more</div>
                     <ul>
                         {% for organisation in sector.organisations %}
                         <li><a href="{% url 'organisation' organisation.id %}">{{ organisation.name }}</a></li>
