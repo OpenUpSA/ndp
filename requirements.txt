@@ -8,7 +8,7 @@ enum34==1.0.4
 futures==3.0.2
 gevent==1.0.1
 greenlet==0.4.5
-gunicorn==19.2.1
+gunicorn==19.5.0
 pathlib==1.0.1
 Pillow==3.0.0
 psycopg2==2.6
