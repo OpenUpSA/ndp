@@ -8,8 +8,8 @@ django-pipeline==1.5.1
 django-storages==1.1.8
 enum34==1.0.4
 futures==3.0.2
-gevent==1.0.1
-greenlet==0.4.5
+gevent==1.2.1
+greenlet==0.4.12
 gunicorn==19.2.1
 pathlib==1.0.1
 Pillow==3.0.0
